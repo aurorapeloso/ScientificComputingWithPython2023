@@ -192,9 +192,11 @@ class polygon:
 
 #testing the class
 a = polygon((3, 19, 8, 3))
-print("The perimeter is: " ,a.perimeter())
+print("The perimeter is: ")
+a.perimeter()
 a.setLen(3,10)
-print("The new perimeter is: " ,a.perimeter())
+print("The new perimeter is: ")
+a.perimeter()
 print("Ordered sides: ", a.getOrderedSides(increasing = True))
 
 class rectangle(polygon):
